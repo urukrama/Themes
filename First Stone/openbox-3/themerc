@@ -1,0 +1,132 @@
+# First Stone, created by urukrama (04-2008)
+
+# Window geometry
+padding.width: 3
+padding.height: 3
+border.width: 1
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 1
+
+#Menu geometry
+menu.border.width: 0
+menu.overlap: 0
+
+# Border colors
+window.active.border.color: #564E3C
+window.inactive.border.color: #564E3C
+menu.border.color: #564E3C
+window.active.client.color: #564E3C
+window.inactive.client.color: #564E3C
+
+window.active.title.separator.color: #ECE9E2
+window.inactive.title.separator.color: #ECE9E2
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Title justification
+window.label.text.justify: center
+menu.title.text.justify: center
+
+# Menus
+menu.title.bg: flat solid
+menu.title.bg.color: #564E3C
+menu.title.text.color: #ECE9E2
+
+menu.items.bg: flat solid
+menu.items.bg.color: #ECE9E2
+menu.items.text.color: #564E3C
+menu.items.disabled.text.color: #c6c69f
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #564E3C
+menu.items.active.text.color: #ECE9E2
+menu.items.active.disabled.text.color: #c6c69f
+
+# Active window
+window.active.title.bg: solid flat
+window.active.title.bg.color: #ECE9E2
+
+window.active.label.bg: flat solid
+window.active.label.bg.color: #564E3C
+window.active.label.text.color: #ECE9E2
+
+window.active.handle.bg: Flat solid
+window.active.handle.bg.color: #564E3C
+
+window.active.grip.bg: Flat solid
+window.active.grip.bg.color: #564E3C
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #ECE9E2
+
+window.active.button.pressed.bg: Parentrelative
+window.active.button.pressed.image.color: #ab9b78
+
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #ECE9E2
+
+window.active.button.toggled.unpressed.bg: Parentrelative 
+window.active.button.toggled.unpressed.image.color: #ECE9E2
+
+window.active.button.toggled.pressed.bg: Parentrelative 
+window.active.button.toggled.pressed.image.color:  #ab9b78
+
+window.active.button.toggled.hover.bg: Parentrelative 
+window.active.button.toggled.hover.image.color: #564e3c
+
+window.active.button.hover.bg: Parentrelative
+window.active.button.hover.image.color: #564e3c
+
+# Inactive windows
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #ECE9E2
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color:  #564e3c
+
+window.inactive.handle.bg: Flat solid
+window.inactive.handle.bg.color: #564E3C
+
+window.inactive.grip.bg: Flat solid
+window.inactive.grip.bg.color: #564E3C
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #ECE9E2
+
+window.inactive.button.pressed.bg: Parentrelative
+window.inactive.button.pressed.image.color: #ab9b78
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #ECE9E2
+
+window.inactive.button.toggled.unpressed.bg: Parentrelative
+window.inactive.button.toggled.unpressed.image.color: #ECE9E2
+
+window.inactive.button.toggled.pressed.bg: Parentrelative
+window.inactive.button.toggled.pressed.image.color: #ab9b78
+
+window.inactive.button.toggled.hover.bg: Parentrelative
+window.inactive.button.toggled.hover.image.color: #564e3c
+
+window.inactive.button.hover.bg: Parentrelative
+window.inactive.button.hover.image.color: #564e3c
+
+#OSD
+osd.bg: flat solid
+osd.bg.color: #ECE9E2
+osd.bg.border.color: #564E3C
+
+osd.label.bg: parentrelative
+osd.label.bg.color: #ECE9E2
+osd.label.text.color:  #564E3C
+
+osd.hilight.bg: solid flat
+osd.hilight.bg.color: #564E3C
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #ECE9E2

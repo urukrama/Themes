@@ -1,0 +1,134 @@
+# Eidolon, created by urukrama (10-2008)
+
+# Window geometry
+padding.width: 2
+border.width: 1
+window.client.padding.width: 0
+window.client.padding.height: 2
+window.handle.width: 1
+
+#Menu geometry
+menu.border.width: 0
+menu.overlap: 0
+
+menu.separator.width: 1
+menu.separator.padding.width: 6
+menu.separator.padding.height: 2
+
+menu.overlap.x: -4
+menu.overlap.y: 0
+
+# Border colors
+window.active.border.color:  #0e100f
+window.inactive.border.color: #0e100f
+menu.border.color: #0e100f
+window.active.client.color: #606e61
+window.inactive.client.color: #0e100f
+
+# Text shadows
+window.active.label.text.font: shadow=y
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Window title justification
+window.label.text.justify: left
+
+# Menus
+menu.title.bg: flat Gradient MirrorHorizontal
+menu.title.bg.color: #606e61
+menu.title.bg.colorTo: #666e5f
+menu.title.text.color: #161916
+menu.title.text.justify: center
+
+menu.items.bg: flat solid
+menu.items.bg.color: #0E100F
+menu.items.text.color: #606e61
+menu.items.disabled.text.color: #364437
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #0E100F
+menu.items.active.text.color:  #9DAD9C
+menu.items.active.disabled.text.color: #364437
+
+# Active window
+window.active.title.bg: flat solid
+window.active.title.bg.color: #0E100F
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #9DAD9C
+
+window.active.handle.bg: Flat solid
+window.active.handle.bg.color: #0E100F
+
+window.active.grip.bg: Flat solid
+window.active.grip.bg.color: #0E100F
+
+window.active.button.unpressed.bg: Parentrelative
+window.active.button.unpressed.image.color: #606e61
+
+window.active.button.pressed.bg: Parentrelative
+window.active.button.pressed.image.color: #c2a7c0
+
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #0E100F
+
+window.active.button.toggled.unpressed.bg: Parentrelative 
+window.active.button.toggled.unpressed.image.color: #606e61
+
+window.active.button.toggled.pressed.bg: Parentrelative 
+window.active.button.toggled.pressed.image.color:  #c2a7c0
+
+window.active.button.toggled.hover.bg: Parentrelative 
+window.active.button.toggled.hover.image.color: #9DAD9C
+
+window.active.button.hover.bg: Parentrelative
+window.active.button.hover.image.color: #9DAD9C
+
+# Inactive windows
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #0E100F
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color:  #606e61
+
+window.inactive.handle.bg: Flat solid
+window.inactive.handle.bg.color: #0E100F
+
+window.inactive.grip.bg: Flat solid
+window.inactive.grip.bg.color: #0E100F
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #161916
+
+window.inactive.button.pressed.bg: Parentrelative
+window.inactive.button.pressed.image.color: #c2a7c0
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #0E100F
+
+window.inactive.button.toggled.unpressed.bg: Parentrelative
+window.inactive.button.toggled.unpressed.image.color: #161916
+
+window.inactive.button.toggled.pressed.bg: Parentrelative
+window.inactive.button.toggled.pressed.image.color: #c2a7c0
+
+window.inactive.button.toggled.hover.bg: Parentrelative
+window.inactive.button.toggled.hover.image.color: #606e61
+
+window.inactive.button.hover.bg: Parentrelative
+window.inactive.button.hover.image.color: #606e61
+
+#OSD
+osd.bg: flat solid
+osd.bg.color: #0E100F
+osd.bg.border.color: #606e61
+
+osd.label.bg: parentrelative
+osd.label.text.color:  #a2baa0
+
+osd.hilight.bg: solid flat
+osd.hilight.bg.color: #a2baa0
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #606e61

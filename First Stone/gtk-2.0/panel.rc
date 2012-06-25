@@ -1,0 +1,143 @@
+#################### PANEL BACKGROUND #########################xx
+
+style "panelbg"
+{
+  
+ xthickness            			= 0
+  ythickness            			= 0
+bg_pixmap[NORMAL]					= "Panel/panel-bg.png"
+bg_pixmap[SELECTED]					= "Panel/panel-bg.png"
+bg_pixmap[INSENSITIVE]					= "Panel/panel-bg.png"
+bg_pixmap[PRELIGHT]					= "Panel/panel-bg.png"
+bg_pixmap[ACTIVE]					= "Panel/panel-bg.png"
+}
+
+class "*Panel*" style "panelbg"
+widget_class "*notif*" style "panelbg"
+widget_class "*Notif*" style "panelbg"
+widget_class "*Tray*" style "panelbg"
+widget_class "*tray*" style "panelbg"
+
+##################### PANEL BUTTONS ###############################
+
+style "panelbuttons"
+{
+
+  fg[NORMAL]       	   = "#29241d" # Metacity and mouseover, Most text
+  fg[ACTIVE]       	   = "#29241d"
+  fg[PRELIGHT]     	   = "#242119"
+  fg[SELECTED]     	   = "#29241d"
+  fg[INSENSITIVE]  	   = "#c6c69f"
+  bg[NORMAL]       	   = "#ECE9E2" # Normal Background
+  bg[PRELIGHT]       	   = "#564E3C"
+  base[NORMAL]		   = "#ECE9E2"
+  
+  xthickness            			= 2
+  ythickness            			= 1
+
+	GtkWidget::focus_padding = 2
+
+	engine "pixmap" {
+      
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= NORMAL
+			file            	= "Panel/panelbutton1.png"
+			border          	= { 4, 4, 4, 4 }
+			stretch         	= TRUE
+		}
+		
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= PRELIGHT
+			file            	= "Panel/panelbutton1.png"
+			border          	= { 4, 4, 4, 4 }
+			stretch         	= TRUE
+		}
+
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			#shadow			= OUT
+			state			= PRELIGHT
+			file            	= "Panel/panelbutton-active.png"
+			border          	= { 4, 4, 4, 4 }
+			stretch         	= TRUE
+			#overlay_file   	= "panelbutton1.png"
+			#overlay_border		= { 4, 4, 4, 4 }
+			#overlay_stretch	= TRUE
+		}
+		
+/* 		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			shadow			= IN
+			state			= PRELIGHT
+			file            	= "Panel/panelbutton-active.png"
+			border          	= { 4, 4, 4, 4 }
+			stretch         	= TRUE
+			#overlay_file     	= "panelbutton1.png"
+			#overlay_border		= { 4, 4, 4, 4 }
+			#overlay_stretch	= TRUE
+		}
+*/		
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= ACTIVE
+			file            	= "Panel/panelbutton1.png"
+			border          	= { 4, 4, 4, 4 }
+			stretch         	= TRUE
+		}  
+		image
+		{
+			function        	= BOX
+			recolorable     	= TRUE
+			state			= INSENSITIVE
+			file            	= "Panel/panelbutton1.png"
+			border          	= { 4, 4, 4, 4 }
+			stretch         	= TRUE
+		}  
+/*    		image
+    		{
+      		function			= HANDLE
+      		recolorable			= TRUE
+      		overlay_file			= "Panel/handle-v.png"
+      		overlay_stretch	= FALSE
+      		orientation			= VERTICAL
+    		}
+    		image
+    		{
+      		function			= HANDLE
+      		overlay_file			= "Panel/handle-h.png"
+      		overlay_stretch 		= FALSE
+     		orientation			= HORIZONTAL
+   		}
+*/
+	}
+
+}
+
+widget "*PanelWidget*" style "panelbuttons"
+widget "*PanelApplet*" style "panelbuttons"
+
+widget_class "*Panel*GtkToggleButton*" style "panelbuttons"
+
+#widget_class "*Panel*GtkHandleBox" style "panelbuttons"
+#widget_class "*Panel*GtkPaned" style "panelbuttons"
+
+widget_class "*Panel*GtkButton" style "panelbuttons"
+widget_class "*PanelButton*." style "panelbuttons"
+
+widget_class "*Panel*" style "panelbuttons"
+#class "*notif*" style "panelbuttons"
+#class "*Notif*" style "panelbuttons"
+#class "*Tray*" style "panelbuttons"
+#class "*tray*" style "panelbuttons"

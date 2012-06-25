@@ -1,0 +1,327 @@
+# Brume, by urukrama (06-2010)
+# Requires the xfce and mist gtk engines.
+
+gtk-icon-sizes = "panel-menu=24,24:panel=16,16:gtk-button=18,18:gtk-large-toolbar=24,24"
+gtk-button-images = 1
+gtk-menu-images = 1
+
+style "default"
+{
+	GtkButton::default_border			= {0, 0, 0, 0}
+	GtkButton::default_outside_border	= {0, 0, 0, 0}
+	GtkButton::child_displacement_x	= 0
+	GtkButton::child_displacement_y	= 1
+	GtkButton::default_spacing			= 2
+	GtkButton::focus-padding			= 0
+
+	GtkCheckButton::indicator_size		= 8
+
+	GtkMenuBar::internal-padding		= 1
+	GtkMenuBar::shadow_type			= none
+
+	GtkHandleBox::shadow_type		= none
+	GtkStatusbar::shadow_type			= none
+	GtkMenuItem::selected_shadow_type	= none
+
+	GtkPaned::handle_full_size			= 1
+	GtkPaned::handle_size			= 2
+
+	GtkRadioButton::indicator_size		= 10
+
+	GtkRange::slider_width			= 10
+	GtkRange::stepper_size			= 10
+	GtkRange::stepper_spacing		= 0
+	GtkRange::trough_border			= 0
+
+	GtkScrollbar::has_forward_stepper				= 1
+	GtkScrollbar::has_backward_stepper			= 1
+	GtkScrollbar::has_secondary_backward_stepper	= 0
+	GtkScrollbar::min_slider_length					= 15
+
+	GtkToolbar::shadow_type			= none
+
+	GtkWidget::focus-line-width			= 1
+	GtkWidget::focus_padding			= 1 
+	GtkWidget::interior_focus			= 1 
+	GtkWidget::internal_padding		= 1 
+
+	GtkEntry::cursor_aspect_ratio		= 0.1
+	GtkEntry::cursor_color				= "#7E476C"
+	GtkEntry::secondary_cursor_color	= "#7E476C"
+	GtkEntry::shadow_type				= etched
+
+	GtkTextView::cursor_color				= "#7E476C"
+	GtkTextView::secondary_cursor_color	= "#7E476C"
+
+	GtkEntry::shadow_type				= GTK_SHADOW_ETCHED_IN
+	
+	GtkComboBox::shadow_type		= GTK_SHADOW_NONE
+	GtkComboBoxEntry::shadow_type	= GTK_SHADOW_NONE
+
+	xthickness					= 1
+	ythickness					= 1
+
+  fg[NORMAL]       		= "#261521" # Metacity and mouseover, Most text
+  fg[ACTIVE]       		= "#7E476C"
+  fg[PRELIGHT]     		= "#F7F6F5"
+  fg[SELECTED]     	 	= "#F7F6F5"
+  fg[INSENSITIVE] 	 	= "#b2b2b2"
+
+  bg[NORMAL]       	= "#F7F6F5" # Normal Background
+  bg[ACTIVE]       	= "#ebe9e8" 
+  bg[PRELIGHT]     	= "#7E476C" # Expand prelight bg
+  bg[SELECTED]     	= "#7E476C"
+  bg[INSENSITIVE]  	= "#F7F6F5"
+
+  base[NORMAL]     	= "#F7F6F5" # Background, most
+  base[ACTIVE]     	= "#7E476C" # Menu active item in inactive window
+  base[PRELIGHT]   	= "#F7F6F5"
+  base[INSENSITIVE]    	= "#F7F6F5" # Inactive Entry bg
+  base[SELECTED]        = "#7E476C" # Menu active item in active window
+
+  text[NORMAL]	 	= "#261521" # Text in window, arrows
+  text[INSENSITIVE]	= "#7E476C" # Insensitive arrows
+  text[SELECTED]   	= "#F7F6F5" # Active text in active window
+  text[ACTIVE]     	 	= "#b2b2b2" # Active text in inactive window
+  text[PRELIGHT]   	 	= "#F7F6F5" # Text on Mouseover
+
+	engine "xfce"
+	{
+		smooth_edge = true
+
+		boxfill
+		{
+			fill_style = plain
+		}
+	}
+}
+
+widget_class "*" style "default"
+
+style "menustyle" = "default"
+{
+	bg[ACTIVE]	= "#F7F6F5"
+	bg[PRELIGHT]	= "#7E476C"
+	bg[SELECTED]	= "#7E476C"
+
+ 	
+	xthickness = 1
+	ythickness = 2
+
+		engine "xfce"
+	{
+		smooth_edge = true
+		grip_style = none
+
+		boxfill
+		{
+			fill_style = gradient
+			orientation = vertical
+			shade_start = 1.02
+			shade_end = 1.00
+		}
+	}
+}
+
+widget_class "*BonoboDockItem"	style "menustyle"
+class "*BonoboDockItem"			style "menustyle"
+widget_class "*ToolBar"			style "menustyle"
+class "*ToolBar"					style "menustyle"
+widget_class "*MenuBar"			style "menustyle"
+class "*MenuBar"					style "menustyle"
+
+class "GtkWidget"          			style "default"
+
+style "inactivetext"
+{
+
+engine "mist"
+ 	{
+	}
+}
+
+widget_class "*.<GtkLabel>" style "inactivetext"
+widget_class "*.<GtkCellLayout>" style "inactivetext"
+#widget_class "*.<Combo>" style "inactivetext"
+
+style "inactivetext2"
+{
+
+  base[ACTIVE]     	= "#7E476C"
+  fg[PRELIGHT] 	= "#7E476C"
+  text[PRELIGHT] 	= "#7E476C"
+
+engine "mist"
+ 	{
+	}
+}
+
+widget_class "*.<GtkMenuItem>.*" style "inactivetext2"
+
+
+
+style "button" = "default"
+{
+	xthickness = 2
+	ythickness = 2
+	bg[PRELIGHT] = "#7E476C"
+	fg[PRELIGHT] = "#F7F6F5"
+	base[ACTIVE] = "#7E476C"
+	text[PRELIGHT] = "#7E476C"   # needed to make the radio and check button visible when selected
+        
+	engine "xfce"
+	{
+		smooth_edge = true
+		grip_style = none
+
+		boxfill
+		{
+			fill_style = gradient
+			orientation = vertical
+			shade_start = 1.05
+			shade_end = 1.00
+		}
+	}
+}
+
+widget_class "*Button*"	style "button"
+class "*Button*"			style "button"
+widget_class "*button*"	style "button"
+class "*button*"			style "button"
+widget_class "*OptionMenu*"	style "button"
+class "*OptionMenu*"		style "button"
+
+
+style "sbstyle" = "default"
+{
+	bg[ACTIVE]   = "#F7F6F5" #trough background
+
+	xthickness = 6
+	ythickness = 6
+
+	engine "xfce"
+	{
+		smooth_edge = true
+		grip_style = none
+		boxfill
+		{
+			fill_style = plain
+		}
+	}
+}
+
+widget_class "*Scrollbar*"	style "sbstyle"
+class "*Scrollbar*"		style "sbstyle"
+
+
+style "scale" = "default"
+{
+	bg[ACTIVE]   = "#F7F6F5" 
+
+	xthickness = 5
+	ythickness = 5
+
+	engine "xfce" 
+    {
+        smooth_edge = true
+        grip_style = none
+        boxfill
+        {
+            fill_style = plain
+        }
+    }
+}
+}
+
+widget_class "*GtkScale*"	style "scale"
+class "*GtkScale*"		style "scale"
+
+style "sbstyle2" = "default"
+{
+	bg[NORMAL] = "#F7F6F5"
+	bg[PRELIGHT] = "#7E476C"
+	bg[ACTIVE]   = "#7E476C"
+
+	xthickness = 2
+	ythickness = 2
+
+	engine "xfce"
+	{
+		smooth_edge = true
+		grip_style = none
+		boxfill
+		{
+			fill_style = plain
+		}
+	}
+}
+
+widget_class "*GtkProgress*"	style "sbstyle2"
+class "*GtkProgress*"			style "sbstyle2"
+
+style "fsstyle"
+{
+	fg[NORMAL] = "#7E476C"
+	fg[ACTIVE] = "#F7F6F5"
+	fg[SELECTED] = "#F7F6F5" 
+}
+
+widget_class "*List"		style "fsstyle"
+class "*List"				style "fsstyle"
+widget_class "*Button"		style "fsstyle"
+class "*Button"			style "fsstyle"
+widget_class "*Tree"		style "fsstyle"
+class "*Tree"				style "fsstyle"
+
+style "ledstyle"
+{
+	text[NORMAL] = "#3c4746"
+}
+
+widget_class "*Clock*"	style "ledstyle"
+class "*Clock*"			style "ledstyle"
+
+style "menuitem" = "default"
+{
+	base[ACTIVE]     	 = "#7E476C"
+	bg[ACTIVE]       	 = "#7E476C"
+	xthickness = 1
+	ythickness = 2
+}
+
+widget_class "*MenuItem*"	style "menuitem"
+class "*MenuItem*"		style "menuitem"
+
+style "flat" = "default"
+{
+	xthickness = 2
+	ythickness = 2
+
+	engine "xfce" 
+	{
+		smooth_edge = true
+		grip_style = none
+		
+		boxfill
+		{
+			fill_style = gradient
+			orientation = vertical
+			shade_start = 1.00
+			shade_end = 1.00
+		}
+	}
+}
+
+widget_class "*HandleBox*"	style "flat"
+
+style "titlebar"
+{
+	bg[SELECTED]	= "#F7F6F5"
+	        
+	fg[SELECTED]	= "#E0E0E0"
+	fg[INSENSITIVE]	= "#3c4746"
+}
+
+widget "xfwm"			style "titlebar"
+widget_class "MetaFrames"	style "titlebar"
+class "MetaFrames"		style "titlebar"

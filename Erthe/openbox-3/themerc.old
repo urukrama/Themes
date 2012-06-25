@@ -1,0 +1,159 @@
+# Erthe goes upon erthe as molde upon molde
+# He that gose upon erthe, gleterande as golde
+# Like erthe never more go to erthe sholde
+# And yitt shall erthe unto erthe ga rathere than he wolde
+#==========================================================
+
+# Erthe, created by urukrama (06-2011)
+
+# Window geometry
+padding.width: 2
+padding.height: 2
+window.client.padding.width: 1
+window.client.padding.height: 1
+window.handle.width: 0
+
+border.width: 
+osd.border.width: 1
+menu.border.width: 1
+
+menu.separator.width: 1
+menu.separator.padding.width: 6
+menu.separator.padding.height: 2
+
+menu.overlap.x: -5
+menu.overlap.y: 0
+
+# Border colors
+window.active.border.color: #474439
+window.inactive.border.color:  #474439
+
+window.active.title.separator.color:  #545043
+window.inactive.title.separator.color: #545043
+
+window.active.client.color: #545043
+window.inactive.client.color: #545043
+
+osd.border.color:  #474439
+menu.border.color: #474439
+
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Title justification
+window.label.text.justify: center
+menu.title.text.justify: center
+
+# Menus
+menu.title.bg: flat solid
+menu.title.bg.color: #a89f87
+menu.title.text.color: #fcf1ca
+
+menu.items.bg: flat solid
+menu.items.bg.color: #545043
+menu.items.text.color: #c2b99b
+menu.items.disabled.text.color: #756f5d
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #545043
+menu.items.active.text.color: #fff7d9
+menu.items.active.disabled.text.color: #756f5d
+
+menu.separator.color: #a89f87
+
+# Active window
+window.active.title.bg: flat solid
+window.active.title.bg.color: #545043
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #fef0cb
+
+window.active.handle.bg: Flat solid
+window.active.handle.bg.color: #545043
+
+window.active.grip.bg: Flat solid
+window.active.grip.bg.color: #545043
+
+window.active.button.unpressed.bg: Parentrelative
+window.active.button.unpressed.image.color: #fef0cb
+
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #a8a087
+
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #545043
+
+window.active.button.toggled.unpressed.bg: Parentrelative
+window.active.button.toggled.unpressed.image.color: #fef0cb
+
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.pressed.image.color: #a8a087
+
+window.active.button.toggled.hover.bg: parentrelative
+window.active.button.toggled.hover.image.color: #c9bfa1
+
+window.active.button.hover.bg: parentrelative
+window.active.button.hover.image.color: #c9bfa1
+
+# Inactive windows
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #545043
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color:  #a89f87
+
+window.inactive.handle.bg: Flat solid
+window.inactive.handle.bg.color: #545043
+
+window.inactive.grip.bg: Flat solid	
+window.inactive.grip.bg.color: #545043
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color:  #545043
+
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.image.color: #a8a087
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #545043
+
+window.inactive.button.toggled.unpressed.bg: Parentrelative
+window.inactive.button.toggled.unpressed.image.color:  #545043
+
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.pressed.image.color: #a8a087
+
+window.inactive.button.toggled.hover.bg: parentrelative
+window.inactive.button.toggled.hover.image.color: #c9bfa1
+
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.hover.image.color: #c9bfa1
+
+#OSD
+osd.bg: flat solid
+osd.bg.color:  #545043
+
+osd.label.bg: parentrelative
+osd.label.text.color: #fef0cb
+
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #fef0cb
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #a89f87
+
+osd.button.unpressed.bg: flat solid
+osd.button.unpressed.bg.color: #545043
+osd.button.unpressed.text.color:  #a89f87
+
+osd.button.pressed.bg: flat solid
+osd.button.pressed.bg.color: #545043
+osd.button.pressed.text.color: #c9bfa1
+
+osd.button.focused.bg: flat solid
+osd.button.focused.bg.color: #545043
+osd.button.focused.text.color: #fef0cb

@@ -1,0 +1,147 @@
+# Alghattas, created by urukrama (11-2010)
+# 
+# Exilé sur le sol au milieu des huées,
+# Ses ailes de géant l'empêchent de marcher.
+# 
+# (Charles Baudelaire, L'Albatros)
+	
+# Window geometry
+padding.width: 2
+padding.height: 2
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 1
+
+border.width: 
+osd.border.width: 1
+menu.border.width: 1
+
+menu.separator.width: 1
+menu.separator.padding.width: 6
+menu.separator.padding.height: 2
+
+menu.overlap.x: 0
+menu.overlap.y: 0
+
+# Border colors
+window.active.border.color: #303334
+window.inactive.border.color: #303334
+
+window.active.title.separator.color:  #303334
+window.inactive.title.separator.color: #303334
+
+window.active.client.color: #303334
+window.inactive.client.color: #303334
+
+osd.border.color: #303334
+menu.border.color: #303334
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Title justification
+window.label.text.justify: center
+menu.title.text.justify: center
+
+# Menus
+menu.title.bg: flat gradient vertical
+menu.title.bg.color: #A1B0BE
+menu.title.bg.colorTo: #778898
+menu.title.text.color: #303334
+
+menu.items.bg: flat solid
+menu.items.bg.color: #303334
+menu.items.text.color: #B1BCBC
+menu.items.disabled.text.color: #737979
+
+menu.items.active.bg: flat gradient vertical
+menu.items.active.bg.color: #A1B0BE
+menu.items.active.bg.colorTo: #778898
+menu.items.active.text.color: #303334
+menu.items.active.disabled.text.color: #737979
+
+menu.separator.color: #292B2B
+
+# Active window
+window.active.title.bg: flat solid
+window.active.title.bg.color: #303334
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #B1BCBC
+
+window.active.handle.bg: Flat solid
+window.active.handle.bg.color: #303334
+
+window.active.grip.bg: Flat solid
+window.active.grip.bg.color: #303334
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color:#303334
+
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #9FAEBC
+
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #303334
+
+window.active.button.toggled.unpressed.bg: Parentrelative
+window.active.button.toggled.unpressed.image.color: #303334
+
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.pressed.image.color: #9FAEBC
+
+window.active.button.toggled.hover.bg: parentrelative
+window.active.button.toggled.hover.image.color: #B1BCBC
+
+window.active.button.hover.bg: parentrelative
+window.active.button.hover.image.color: #B1BCBC
+
+# Inactive windows
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #303334
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color:  #303334
+
+window.inactive.handle.bg: Flat solid
+window.inactive.handle.bg.color: #303334
+
+window.inactive.grip.bg: Flat solid	
+window.inactive.grip.bg.color: #303334
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color:  #303334
+
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.image.color: #9FAEBC
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #303334
+
+window.inactive.button.toggled.unpressed.bg: Parentrelative
+window.inactive.button.toggled.unpressed.image.color:  #303334
+
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.pressed.image.color: #9FAEBC
+
+window.inactive.button.toggled.hover.bg: parentrelative
+window.inactive.button.toggled.hover.image.color: #B1BCBC
+
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.hover.image.color: #B1BCBC
+
+#OSD
+osd.bg: flat solid
+osd.bg.color: #303334
+
+osd.label.bg: parentrelative
+osd.label.text.color: #B1BCBC
+
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #B1BCBC
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #737979

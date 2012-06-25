@@ -1,0 +1,138 @@
+# Awakened, created by urukrama (12-2007)
+
+# Window geometry
+padding.width: 3
+padding.height: 1
+border.width: 1
+osd.border.width: 1
+window.client.padding.width: 0
+window.client.padding.height: 3
+window.handle.width: 1
+
+#Menu geometry
+menu.border.width: 2
+menu.overlap: 0
+
+# Border colors
+window.active.border.color: #000033
+window.inactive.border.color: #000033
+menu.border.color: #000033
+osd.border.color: #9897c7
+window.active.client.color: #9897c7
+window.inactive.client.color: #9897c7
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=y:shadowtint=50:shadowoffset=1
+osd.label.text.font: shadow=n
+
+# Window title justification
+window.label.text.justify: right
+
+# Menus
+menu.title.bg: Flat Solid
+menu.title.bg.color: #000033
+menu.title.text.color: #9897c7
+menu.title.text.justify: center
+
+menu.items.bg: Flat solid
+menu.items.bg.color: #e5e5f4
+menu.items.text.color: #000033
+menu.items.disabled.text.color:  #FBFCF2
+
+menu.items.active.bg: Flat solid
+menu.items.active.bg.color: #9897c7
+menu.items.active.text.color: #000033
+menu.items.active.disabled.text.color: #000000
+
+# Active window
+window.active.title.bg: Flat solid
+window.active.title.bg.color: #000033
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #CC99FF
+
+window.active.handle.bg: Flat solid
+window.active.handle.bg.color: #000033
+
+window.active.grip.bg: Flat solid
+window.active.grip.bg.color: #000033
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #9897c7
+
+window.active.button.pressed.bg: flat solid
+window.active.button.pressed.bg.color: #000033
+window.active.button.pressed.image.color: #CC99FF
+
+window.active.button.disabled.bg: Flat Solid
+window.active.button.disabled.bg.color: #000033
+window.active.button.disabled.image.color: #000033
+
+window.active.button.toggled.unpressed.bg: parentrelative
+window.active.button.toggled.unpressed.image.color: #000033
+
+window.active.button.toggled.pressed.bg: flat solid
+window.active.button.toggled.pressed.bg.color: #000033
+window.active.button.toggled.pressed.image.color: #CC99FF
+
+window.active.button.toggled.hover.bg: flat solid
+window.active.button.toggled.hover.bg.color: #000033
+window.active.button.toggled.hover.image.color: #9897c7
+
+window.active.button.hover.bg: flat solid
+window.active.button.hover.bg.color: #000033
+window.active.button.hover.image.color: #9897c7
+
+# Inactive windows
+window.inactive.title.bg: Flat solid
+window.inactive.title.bg.color: #000033
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #9897c7
+
+window.inactive.handle.bg: Flat solid
+window.inactive.handle.bg.color: #000033
+
+window.inactive.grip.bg: Flat solid
+window.inactive.grip.bg.color: #000033
+
+window.inactive.button.unpressed.bg: Parentrelative 
+window.inactive.button.unpressed.image.color: #9897c7
+
+window.inactive.button.pressed.bg: flat solid
+window.inactive.button.pressed.bg.color: #000033
+window.inactive.button.pressed.image.color: #e5e5f4
+
+window.inactive.button.disabled.bg: Flat Solid
+window.inactive.button.disabled.bg.color: #000033
+window.inactive.button.disabled.image.color: #000033
+
+window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.unpressed.image.color: #000033
+
+window.inactive.button.toggled.pressed.bg: flat solid
+window.inactive.button.toggled.pressed.bg.color: #000033
+window.inactive.button.toggled.pressed.image.color: #e5e5f4
+
+window.inactive.button.toggled.hover.bg: flat solid
+window.inactive.button.toggled.hover.bg.color: #000033
+window.inactive.button.toggled.hover.image.color: #9897c7
+
+window.inactive.button.hover.bg: flat solid
+window.inactive.button.hover.bg.color: #000033
+window.inactive.button.hover.image.color: #9897c7
+
+#OSD
+osd.bg: flat solid
+osd.bg.color: #000033
+osd.label.bg: parentrelative
+osd.label.text.color: #9897c7
+
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #000033
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #9897c7

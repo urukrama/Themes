@@ -1,0 +1,27 @@
+[Color Scheme]
+Name=Bygone
+activeBackground=0,0,0
+activeBlend=0,0,0
+activeForeground=169,162,143
+activeTitleBtnBg=169,162,143
+alternateBackground=159,153,135
+background=169,162,143
+buttonBackground=169,162,143
+buttonForeground=34,34,34
+contrast=7
+foreground=34,34,34
+frame=239,239,239
+handle=239,239,239
+inactiveBackground=0,0,0
+inactiveBlend=0,0,0
+inactiveForeground=1,1,0
+inactiveFrame=239,239,239
+inactiveHandle=239,239,239
+inactiveTitleBtnBg=220,220,220
+linkColor=0,0,238
+selectBackground=1,1,1
+selectForeground=169,162,143
+shadeSortColumn=true
+visitedLinkColor=82,24,139
+windowBackground=169,162,143
+windowForeground=34,34,34

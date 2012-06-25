@@ -1,0 +1,130 @@
+# Into the Unknown, created by urukrama (05-2008)
+
+# Window geometry
+padding.width: 2
+padding.height: 1
+border.width: 2
+window.client.padding.width: 0
+window.client.padding.height: 3
+window.handle.width: 1
+
+#Menu geometry
+menu.border.width: 2
+menu.overlap: 0
+
+# Border colors
+window.active.border.color: #010100
+window.inactive.border.color: #010100
+menu.border.color: #010100
+window.active.client.color: #871706
+window.inactive.client.color: #871706
+osd.border.color: #010100
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Title justification
+window.label.text.justify: center
+menu.title.text.justify: center
+
+# Menus
+menu.title.bg: flat solid
+menu.title.bg.color: #871706
+menu.title.text.color: #010100
+
+menu.items.bg: flat solid
+menu.items.bg.color: #eee9e8
+menu.items.text.color: #010100
+menu.items.disabled.text.color: #c7c2c1
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #010100
+menu.items.active.text.color: #871706
+menu.items.active.disabled.text.color: #c7c2c1
+
+# Active window
+window.active.title.bg: flat solid 
+window.active.title.bg.color: #010100
+#window.active.title.bg.border.color: #871706
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #871706
+
+window.active.handle.bg: Flat solid
+window.active.handle.bg.color: #010100
+
+window.active.grip.bg: Flat solid
+window.active.grip.bg.color: #010100
+
+window.active.button.unpressed.bg: flat solid border
+window.active.button.unpressed.bg.color: #010100
+window.active.button.unpressed.bg.border.color: #010100
+window.active.button.unpressed.image.color: #871706
+
+window.active.button.pressed.bg: Parentrelative
+window.active.button.pressed.image.color: #010100
+
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #010100
+
+window.active.button.toggled.unpressed.bg: Parentrelative 
+window.active.button.toggled.unpressed.image.color: #871706
+
+window.active.button.toggled.pressed.bg: Parentrelative 
+window.active.button.toggled.pressed.image.color:  #010100
+
+window.active.button.toggled.hover.bg: Parentrelative 
+window.active.button.toggled.hover.image.color: #eee9e8
+
+window.active.button.hover.bg: Parentrelative
+window.active.button.hover.image.color: #eee9e8
+
+# Inactive windows
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #010100
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #010100
+
+window.inactive.handle.bg: Flat solid
+window.inactive.handle.bg.color: #010100
+
+window.inactive.grip.bg: Flat solid
+window.inactive.grip.bg.color: #010100
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #871706
+
+window.inactive.button.pressed.bg: Parentrelative
+window.inactive.button.pressed.image.color: #010100
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #010100
+
+window.inactive.button.toggled.unpressed.bg: Parentrelative
+window.inactive.button.toggled.unpressed.image.color: #871706
+
+window.inactive.button.toggled.pressed.bg: Parentrelative
+window.inactive.button.toggled.pressed.image.color: #010100
+
+window.inactive.button.toggled.hover.bg: Parentrelative
+window.inactive.button.toggled.hover.image.color: #eee9e8
+
+window.inactive.button.hover.bg: Parentrelative
+window.inactive.button.hover.image.color: #eee9e8
+
+#OSD
+osd.bg: flat solid
+osd.bg.color: #eee9e8
+
+osd.label.bg: parentrelative
+osd.label.text.color: #010100
+
+osd.hilight.bg: solid flat
+osd.hilight.bg.color: #871706
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #eee9e8

@@ -1,0 +1,158 @@
+# Bygone light, created by urukrama (06-2008)
+
+# Window geometry
+padding.width: 4
+padding.height: 2
+border.width: 2
+window.client.padding.width: 3
+window.client.padding.height: 3
+window.handle.width: 0
+
+osd.border.width: 1
+menu.border.width: 2
+menu.separator.width: 1
+menu.separator.padding.width: 6
+menu.separator.padding.height: 2
+
+menu.overlap.x: -4
+menu.overlap.y: 0
+
+# Border colors
+window.active.border.color: #aaa69b
+window.inactive.border.color: #aaa69b
+
+window.active.title.separator.color:  #000000
+window.inactive.title.separator.color: #000000
+
+window.active.client.color: #000000
+window.inactive.client.color: #000000
+
+osd.border.color: #000000
+menu.border.color: #aaa69b
+
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Title justification
+window.label.text.justify: center
+menu.title.text.justify: center
+
+# Menus
+menu.title.bg: flat solid
+menu.title.bg.color:#000000
+menu.title.bg.colorTo: #010101
+menu.title.bg.text.color: #000000
+
+menu.items.bg: flat solid border
+menu.items.bg.color: #FCFCFC
+menu.items.bg.border.color: #000000
+menu.items.text.color: #0a0b0d
+menu.items.disabled.text.color: #aaa69b
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #000000
+menu.items.active.text.color: #aaa69b
+menu.items.active.disabled.text.color: #52514a
+
+menu.separator.color: #182327
+
+# Active window
+window.active.title.bg: flat gradient vertical
+window.active.title.bg.color: #000000
+window.active.title.bg.colorTo: #010101
+window.active.title.bg.border.color: #94b2b0
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #aaa69b
+
+window.active.handle.bg: Flat solid
+window.active.handle.bg.color: #000000
+
+window.active.grip.bg: Flat solid
+window.active.grip.bg.color: #000000
+
+window.active.button.unpressed.bg: Parentrelative
+window.active.button.unpressed.bg.border.color: #aaa69b
+window.active.button.unpressed.bg.color: #000000
+window.active.button.unpressed.image.color: #aaa69b
+
+window.active.button.pressed.bg: flat solid border
+window.active.button.pressed.bg.border.color: #000000
+window.active.button.pressed.bg.color: #aaa69b
+window.active.button.pressed.image.color: #000000
+
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #000000
+
+window.active.button.toggled.unpressed.bg: Parentrelative
+window.active.button.toggled.unpressed.image.color: #aaa69b
+
+window.active.button.toggled.pressed.bg: flat solid border
+window.active.button.toggled.pressed.bg.border.color: #aaa69b
+window.active.button.toggled.pressed.bg.color: #000000
+window.active.button.toggled.pressed.image.color: #000000
+
+window.active.button.toggled.hover.bg: flat solid border
+window.active.button.toggled.hover.bg.border.color: #aaa69b
+window.active.button.toggled.hover.bg.color: #000000
+window.active.button.toggled.hover.image.color: #aaa69b
+
+window.active.button.hover.bg: flat solid border
+window.active.button.hover.bg.border.color: #aaa69b
+window.active.button.hover.bg.color: #000000
+window.active.button.hover.image.color: #aaa69b
+
+# Inactive windows
+window.inactive.title.bg: flat gradient vertical
+window.inactive.title.bg.color: #000000
+window.inactive.title.bg.colorTo: #010101
+window.inactive.title.bg.border.color: #94b2b0
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #000000
+
+window.inactive.handle.bg: Flat solid
+window.inactive.handle.bg.color: #000000
+
+window.inactive.grip.bg: Flat solid
+window.inactive.grip.bg.color: #000000
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #000000
+
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.image.color: #000000
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #000000
+
+window.inactive.button.toggled.unpressed.bg: Parentrelative
+window.inactive.button.toggled.unpressed.image.color: #000000
+
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.pressed.image.color: #000000
+
+window.inactive.button.toggled.hover.bg: parentrelative
+window.inactive.button.toggled.hover.image.color: #aaa69b
+
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.hover.image.color: #aaa69b
+
+#OSD
+osd.bg: flat solid border
+osd.bg.color:  #FCFCFC
+osd.bg.border.color: #000000
+
+osd.label.bg: parentrelative
+osd.label.text.color: #000000
+
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #000000
+osd.hilight.bg.border.color: #aaa69b
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #FCFCFC

@@ -1,0 +1,149 @@
+# Groove, created by urukrama (09-2007), based on heylove's Aesthetic Groove visual style (http://heylove.deviantart.com/art/Aesthetic-Groove-13763164)
+
+# Window geometry
+padding.width: 1
+border.width: 1
+window.client.padding.width: 1
+window.client.padding.height: 0
+window.handle.width: 1
+
+#Menu geometry
+menu.border.width: 0
+menu.overlap: 0
+
+# Border colors
+window.active.border.color: #503A20
+window.inactive.border.color: #503A20
+menu.border.color: #503A20
+window.active.client.color: #503A20
+window.inactive.client.color: #E1E1CD
+
+# Text shadows
+window.active.label.text.font: shadow=n
+window.inactive.label.text.font: shadow=n
+menu.items.font: shadow=n
+menu.title.text.font: shadow=n
+
+# Window title justification
+window.label.text.justify: left
+
+# Menus
+menu.title.bg: Raised Gradient MirrorHorizontal
+menu.title.bg.color: #503A20
+menu.title.bg.colorTo: #51381A
+menu.title.bg.highlight: 82
+menu.title.bg.shadow: 16
+menu.title.text.color: #90C8C0
+menu.title.text.justify: Left
+
+menu.items.bg: raised solid
+menu.items.bg.color: #E1E1CD
+!!menu.items.bg.colorTo: #F6F6F0
+menu.items.text.color: #533D23
+menu.items.disabled.text.color: #CFCFBC
+menu.items.bg.highlight: 32
+menu.items.bg.shadow: 12
+
+menu.items.active.bg: Raised Gradient MirrorHorizontal
+menu.items.active.bg.color: #503A20
+menu.items.active.bg.colorTo: #51381A
+menu.items.active.bg.highlight: 82
+menu.items.active.bg.shadow: 16
+menu.items.active.text.color:  #90C8C0
+menu.items.active.disabled.text.color: #D4D4C1
+
+# Active window
+window.active.title.bg: Gradient MirrorHorizontal Raised
+window.active.title.bg.color: #503A20
+window.active.title.bg.colorTo: #584228
+#window.active.title.bg.border.color: #7D5A37
+window.active.title.bg.highlight: 82
+window.active.title.bg.shadow: 16
+
+window.active.label.bg: Parentrelative
+window.active.label.text.color: #90C8C0
+
+window.active.handle.bg: Flat Gradient MirrorHorizontal
+window.active.handle.bg.color: #503A20
+window.active.handle.bg.colorTo: #584228
+
+window.active.grip.bg: Flat Gradient MirrorHorizontal
+window.active.grip.bg.color: #503A20
+window.active.grip.bg.colorTo: #584228
+
+window.active.button.unpressed.bg: Parentrelative
+window.active.button.unpressed.image.color: #E1E1CD
+
+window.active.button.pressed.bg: Parentrelative
+window.active.button.pressed.image.color: #90C8C0
+
+window.active.button.disabled.bg: Parentrelative
+window.active.button.disabled.image.color: #523D23
+
+window.active.button.toggled.unpressed.bg: Parentrelative 
+window.active.button.toggled.unpressed.image.color: #E1E1CD
+
+window.active.button.toggled.pressed.bg: Parentrelative 
+window.active.button.toggled.pressed.image.color: #90C8C0
+
+window.active.button.toggled.hover.bg: Parentrelative 
+window.active.button.toggled.hover.image.color: #E1E1CD
+
+window.active.button.hover.bg: Parentrelative
+window.active.button.hover.image.color: #E1E1CD
+
+# Inactive windows
+window.inactive.title.bg: Gradient MirrorHorizontal Raised
+window.inactive.title.bg.color: #503A20
+window.inactive.title.bg.colorTo: #584228
+#window.inactive.title.bg.border.color: #7D5A37
+window.inactive.title.bg.highlight: 82
+window.inactive.title.bg.shadow: 16
+
+window.inactive.label.bg: Parentrelative
+window.inactive.label.text.color: #E1E1CD
+
+window.active.grip.bg: Flat Gradient MirrorHorizontal
+window.active.grip.bg.color: #503A20
+window.active.grip.bg.colorTo: #584228
+
+window.inactive.grip.bg: Flat Gradient MirrorHorizontal
+window.inactive.grip.bg.color: #503A20
+window.inactive.grip.bg.colorTo: #584228
+
+window.inactive.button.unpressed.bg: Parentrelative
+window.inactive.button.unpressed.image.color: #503A20
+
+window.inactive.button.pressed.bg: Parentrelative
+window.inactive.button.pressed.image.color: #90C8C0
+
+window.inactive.button.disabled.bg: Parentrelative
+window.inactive.button.disabled.image.color: #523D23
+
+window.inactive.button.toggled.unpressed.bg: Parentrelative
+window.inactive.button.toggled.unpressed.image.color: #523D23
+
+window.inactive.button.toggled.pressed.bg: Parentrelative
+window.inactive.button.toggled.pressed.image.color: #90C8C0
+
+window.inactive.button.toggled.hover.bg: Parentrelative
+window.inactive.button.toggled.hover.image.color: #E1E1CD
+
+window.inactive.button.hover.bg: Parentrelative
+window.inactive.button.hover.image.color: #E1E1CD
+
+#OSD
+osd.bg: flat solid
+osd.bg.color: #E1E1CD
+osd.bg.border.color: #564026
+
+osd.label.bg: parentrelative
+osd.label.text.color:  #574127
+
+osd.hilight.bg: solid flat
+osd.hilight.bg.color: #79BAB0
+osd.hilight.bg.highlight: 82
+osd.hilight.bg.shadow: 16
+
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #E1E1CD

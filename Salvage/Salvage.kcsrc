@@ -1,0 +1,27 @@
+[Color Scheme]
+Name=Salt
+activeBackground=133,159,156
+activeBlend=133,159,156
+activeForeground=60,71,70
+activeTitleBtnBg=220,220,220
+alternateBackground=237,237,237
+background=252,252,252
+buttonBackground=252,252,252
+buttonForeground=1,1,0
+contrast=7
+foreground=60,71,70
+frame=239,239,239
+handle=239,239,239
+inactiveBackground=133,159,156
+inactiveBlend=133,159,156
+inactiveForeground=238,233,232
+inactiveFrame=239,239,239
+inactiveHandle=239,239,239
+inactiveTitleBtnBg=220,220,220
+linkColor=0,0,238
+selectBackground=133,159,156
+selectForeground=60,71,70
+shadeSortColumn=true
+visitedLinkColor=82,24,139
+windowBackground=252,252,252
+windowForeground=60,71,70
