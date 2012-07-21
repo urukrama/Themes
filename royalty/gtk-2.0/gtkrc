@@ -2,7 +2,7 @@
 
 gtk-icon-sizes = "panel-menu=16,16:panel=16,16:gtk-button=16,16:gtk-large-toolbar=16,16"
 gtk-button-images = 0
-gtk-menu-images = 0
+gtk-menu-images = 1
 
 style "default"
 {
