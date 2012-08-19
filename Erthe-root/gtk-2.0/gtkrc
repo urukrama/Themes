@@ -1,4 +1,4 @@
-# Erthe, created by urukrama (06-2011)
+# Erthe-root, created by urukrama (06-2011)
 # Requires the Xfce and the Mist Gtk engines
 
 gtk-icon-sizes = "panel-menu=24,24:panel=24,24:gtk-button=16,16:gtk-large-toolbar=24,24"
@@ -61,8 +61,8 @@ style "default"
 
 	base[NORMAL]		= "#545043" # Background, most
 	base[PRELIGHT]		= "#545043" # Mouseover menu
-	base[ACTIVE]			= "#A8A187" # Menu active item in inactive window
-	base[SELECTED]		= "#A8A187" # Menu active item in active window
+	base[ACTIVE]			= "#A68D85" # Menu active item in inactive window
+	base[SELECTED]		= "#A68D85" # Menu active item in active window
 	base[INSENSITIVE]		= "#474439" # Background, insensitive
 
 	text[NORMAL]			= "#c2b99b" # Text in window
@@ -212,8 +212,8 @@ class "*Scale*"			style "scale"
 style "sbstyle2" = "default"
 {
 	bg[NORMAL] = "#545043"
-	bg[PRELIGHT] = "#A8A187"
-	bg[ACTIVE]   = "#A8A187"
+	bg[PRELIGHT] = "#A68D85"
+	bg[ACTIVE]   = "#A68D85"
 
 	xthickness = 2
 	ythickness = 2
@@ -274,7 +274,7 @@ style "flat" = "default"
 
 style "titlebar" = "default" 	#window borders (xfwm4 & metacity)
 {
-    bg[SELECTED]      = "#A8A187"
+    bg[SELECTED]      = "#A68D85"
     fg[SELECTED]      = "#fcf2ca"
     bg[INSENSITIVE]   = "#545043"
     fg[INSENSITIVE]   = "#756f5d"
