@@ -146,7 +146,3 @@ osd.button.pressed.text.color: #c9bfa1
 osd.button.focused.bg: flat solid
 osd.button.focused.bg.color: #302e29
 osd.button.focused.text.color: #786e5b
-
-
-osd.text.inactive.color: #91c259
-osd.text.active.color: #b41f2b
