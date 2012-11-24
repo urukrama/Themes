@@ -107,13 +107,13 @@ menu.title.text.justify: Left
 
 menu.items.bg: flat Solid
 menu.items.bg.color: #272521
-menu.items.text.color: #A7A196
-menu.items.disabled.text.color: #c3c3c3
+menu.items.text.color: #6e6960
+menu.items.disabled.text.color: #3b3832
 
 menu.items.active.bg: flat solid
 menu.items.active.bg.color: #302e29
-menu.items.active.text.color: #786e5b
-menu.items.active.disabled.text.color: #c3c3c3
+menu.items.active.text.color: #cfc4b0
+menu.items.active.disabled.text.color: #3b3832
 
 #osd
 osd.bg: flat solid
@@ -126,7 +126,8 @@ osd.border.color:  #786e5b
 
 osd.label.bg: flat solid
 osd.label.bg.color:  #272521
-osd.text.color: #B7B0A5
+osd.label.text.color: #cfc4b0
+osd.inactive.label.text.color: #6e6960
 
 osd.hilight.bg: flat solid
 osd.hilight.bg.color: #fef0cb
@@ -145,3 +146,7 @@ osd.button.pressed.text.color: #c9bfa1
 osd.button.focused.bg: flat solid
 osd.button.focused.bg.color: #302e29
 osd.button.focused.text.color: #786e5b
+
+
+osd.text.inactive.color: #91c259
+osd.text.active.color: #b41f2b
