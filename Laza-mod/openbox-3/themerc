@@ -2,9 +2,9 @@
 
 # Window geometry
 padding.width: 3
-border.width: 1
-window.client.padding.width: 2
-window.client.padding.height: 2
+border.width: 2
+window.client.padding.width: 0
+window.client.padding.height: 0
 window.handle.width: 2
 
 #Menu geometry
@@ -116,12 +116,11 @@ menu.items.active.text.color: #cfc4b0
 menu.items.active.disabled.text.color: #3b3832
 
 #osd
-osd.bg: flat solid
+osd.bg: flat solid border
 osd.bg.color:  #272521
-osd.text.color: #91c259
 osd.bg.border.color: #786e5b
 
-osd.border.width: 2
+osd.border.width: 1
 osd.border.color:  #786e5b
 
 osd.label.bg: flat solid
@@ -129,20 +128,23 @@ osd.label.bg.color:  #272521
 osd.label.text.color: #cfc4b0
 osd.inactive.label.text.color: #6e6960
 
-osd.hilight.bg: flat solid
-osd.hilight.bg.color: #fef0cb
+osd.hilight.bg: flat solid border
+osd.hilight.bg.color: #786e5b
+osd.hilight.border.color: #302e29
 
 osd.unhilight.bg: flat solid
 osd.unhilight.bg.color: #272521
 
 osd.button.unpressed.bg: flat solid
-osd.button.unpressed.bg.color: #545043
-osd.button.unpressed.text.color:  #B7B0A5
+osd.button.unpressed.bg.color: #272521
+osd.button.unpressed.text.color:  #6e6960
 
 osd.button.pressed.bg: flat solid
-osd.button.pressed.bg.color: #545043
+osd.button.pressed.bg.color: #272521
 osd.button.pressed.text.color: #c9bfa1
+osd.button.pressed.box.color: #7a7468
 
 osd.button.focused.bg: flat solid
-osd.button.focused.bg.color: #302e29
+osd.button.focused.bg.color: #272521
 osd.button.focused.text.color: #786e5b
+osd.button.focused.box.color: #3b3832
