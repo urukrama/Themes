@@ -2,10 +2,10 @@
 
 # Window geometry
 padding.width: 3
-border.width: 2
+border.width: 1
 window.client.padding.width: 0
 window.client.padding.height: 0
-window.handle.width: 2
+window.handle.width: 0
 
 #Menu geometry
 menu.border.width: 1
@@ -18,8 +18,12 @@ menu.overlap.x: -5
 menu.overlap.y: 0
 
 # Border colors
-window.active.border.color: #272521
-window.inactive.border.color: #272521
+window.active.border.color: #191816
+window.inactive.border.color: #191816
+
+window.active.title.separator.color:  #272521
+window.inactive.title.separator.color: #272521
+
 menu.border.color: #272521
 window.active.client.color: #272521
 window.inactive.client.color: #272521

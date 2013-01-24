@@ -1,8 +1,8 @@
 #Laza By lyrae | modified by urukrama (11-2012)
 
 gtk-icon-sizes = "panel-menu=24,24:panel=24,24:gtk-button=16,16:gtk-large-toolbar=24,24"
-gtk-button-images = 0
-gtk-menu-images = 0
+gtk-button-images = 1
+gtk-menu-images = 1
 
 style "default"
 {
