@@ -8,42 +8,41 @@ gtk-menu-images = 1
 style "default"
 {
 	GtkButton::default_border			= {0, 0, 0, 0}
-	GtkButton::default_outside_border		= {0, 0, 0, 0}
-	GtkButton::child_displacement_x			= 0
-	GtkButton::child_displacement_y			= 1
-	GtkButton::default_spacing			= 2
-	GtkButton::focus-padding			= 0
+	GtkButton::default_outside_border	= {0, 0, 0, 0}
+	GtkButton::child_displacement_x	= 1
+	GtkButton::child_displacement_y	= 1
+	GtkButton::default_spacing		= 2
+	GtkButton::focus-padding			= 1
 
-	GtkCheckButton::indicator_size			= 8
+	GtkCheckButton::indicator_size		= 8
 
-	GtkMenuBar::internal-padding			= 1
-	GtkMenuBar::shadow_type				= none
+	GtkMenuBar::internal-padding		= 1
 
-	GtkHandleBox::shadow_type			= none
+	GtkMenuBar::shadow_type			= none
+	GtkStatusbar::shadow_type			= none
+	GtkHandleBox::shadow_type			= etched-in
+	GtkMenuItem::selected_shadow_type	= none
+	GtkToolbar::shadow_type			= none
 
-	GtkMenuItem::selected_shadow_type		= none
+	GtkPaned::handle_full_size		= 1
+	GtkPaned::handle_size			= 4
 
-	GtkPaned::handle_full_size			= 1
-	GtkPaned::handle_size				= 2
+	GtkRadioButton::indicator_size		= 10
 
-	GtkRadioButton::indicator_size			= 10
+	GtkRange::slider_width			= 10
+	GtkRange::stepper_size			= 10
+	GtkRange::stepper_spacing		= 0
+	GtkRange::trough_border			= 0
 
-	GtkRange::slider_width				= 7
-	GtkRange::stepper_size				= 7
-	GtkRange::stepper_spacing			= 2
-	GtkRange::trough_border				= 1
-
-	GtkScrollbar::has_forward_stepper		= 1
-	GtkScrollbar::has_backward_stepper		= 1
-	GtkScrollbar::has_secondary_backward_stepper	= 1
-	GtkScrollbar::min_slider_length			= 10
-
-	GtkToolbar::shadow_type				= none
+	GtkScrollbar::has_forward_stepper				= 1
+	GtkScrollbar::has_backward_stepper			= 1
+	GtkScrollbar::has_secondary_backward_stepper	= 0
+	GtkScrollbar::min_slider_length					= 15
 
 	GtkWidget::focus-line-width			= 1
 	GtkWidget::focus_padding			= 1 
 	GtkWidget::interior_focus			= 1 
-	GtkWidget::internal_padding			= 1 
+	GtkWidget::internal_padding		= 1 
 
 	GtkEntry::cursor_aspect_ratio			= 0.1
 	GtkEntry::cursor_color				= "#3c4746"
@@ -181,16 +180,8 @@ class "*OptionMenu*"		style "button"
 
 style "sbstyle" = "default"
 {
-	fg[PRELIGHT] = "#000000"
-	bg[NORMAL] = "#FCFCFC"
-	bg[PRELIGHT] = "#859f9c"
-	bg[ACTIVE]   = "#859f9c" 
-	base[ACTIVE]   = "#859f9c"
-	base[NORMAL]   = "#859f9c"
-	bg[INSENSITIVE] = "#859f9c"
-
-	xthickness = 2
-	ythickness = 2
+	xthickness = 3
+	ythickness = 3
 
 	engine "xfce"
 	{

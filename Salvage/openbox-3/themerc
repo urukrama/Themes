@@ -45,15 +45,16 @@ menu.title.bg: flat gradient vertical border
 menu.title.bg.color: #859f9c
 menu.title.bg.colorTo: #6f8583
 menu.title.bg.border.color: #94b2b0
+menu.title.text.color: #fcffff
 
 menu.items.bg: flat solid
 menu.items.bg.color: #FCFCFC
-menu.items.text.color: #0a0b0d
+menu.items.text.color: #3C4746
 menu.items.disabled.text.color: #c7c2c1
 
 menu.items.active.bg: flat solid
 menu.items.active.bg.color: #859f9c
-menu.items.active.text.color: #0a0b0d
+menu.items.active.text.color: #fcffff
 menu.items.active.disabled.text.color: #c7c2c1
 
 menu.separator.color: #182327
@@ -65,7 +66,7 @@ window.active.title.bg.colorTo: #6f8583
 window.active.title.bg.border.color: #94b2b0
 
 window.active.label.bg: Parentrelative
-window.active.label.text.color: #182327
+window.active.label.text.color: #fcffff
 
 window.active.handle.bg: Flat solid
 window.active.handle.bg.color: #859f9c
@@ -74,7 +75,7 @@ window.active.grip.bg: Flat solid
 window.active.grip.bg.color: #859f9c
 
 window.active.button.unpressed.bg: parentrelative
-window.active.button.unpressed.image.color: #3c4747
+window.active.button.unpressed.image.color: #fcffff
 
 window.active.button.pressed.bg: Parentrelative
 window.active.button.pressed.image.color: #859f9c
@@ -83,7 +84,7 @@ window.active.button.disabled.bg: Parentrelative
 window.active.button.disabled.image.color: #627876
 
 window.active.button.toggled.unpressed.bg: Parentrelative 
-window.active.button.toggled.unpressed.image.color: #3c4747
+window.active.button.toggled.unpressed.image.color: #fcffff
 
 window.active.button.toggled.pressed.bg: Parentrelative 
 window.active.button.toggled.pressed.image.color:  #859f9c
