@@ -1,4 +1,4 @@
-# Mythos, by urukrama (09-2008)
+# Mythos, by urukrama (09-2008, updated 01-2015)
 # Requires the xfce and mist gtk engines.
 
 gtk-icon-sizes = "panel-menu=24,24:panel=24,24:gtk-button=18,18:gtk-large-toolbar=24,24"
@@ -56,14 +56,14 @@ style "default"
 	xthickness					= 1
 	ythickness					= 1
 
-  fg[NORMAL]       	 = "#4b555e" # Metacity and mouseover, Most text
-  fg[ACTIVE]       	 = "#4b555e"
+  fg[NORMAL]       	 = "#606c78" # Metacity and mouseover, Most text
+  fg[ACTIVE]       	 = "#363e45"
   fg[PRELIGHT]     	 = "#8fa1b2"
   fg[SELECTED]     	 = "#08090a"
   fg[INSENSITIVE]  	 = "#262F39"
 
   bg[NORMAL]       	 = "#08090a" # Normal Background
-  bg[ACTIVE]       	 = "#0C1218" # Slider trough bg, inactive tab bg
+  bg[ACTIVE]       	 = "#0a0a0a" #"#0C1218" # Slider trough bg, inactive tab bg
   bg[PRELIGHT]     	 = "#4b555e" # Expand prelight bg
   bg[SELECTED]     	 = "#4b555e"
   bg[INSENSITIVE]  	 = "#08090a"
@@ -74,7 +74,7 @@ style "default"
   base[INSENSITIVE]      = "#08090a" # Inactive Entry bg
   base[SELECTED]         = "#4b555e" # Menu active item in active window
 
-  text[NORMAL]	 	 = "#4b555e" # Text in window, 
+  text[NORMAL]	 	 = "#606c78" #"#4b555e" # Text in window, 
   text[SELECTED]   	 = "#8fa1b2" # Active text in active window
   text[ACTIVE]     	 = "#08090a" # Active text in inactive window
   text[PRELIGHT]   	 = "#8fa1b2" # Text on Mouseover
@@ -209,7 +209,7 @@ style "scale" = "default"
 {
 	bg[NORMAL] = "#4b555e"
 	bg[PRELIGHT] = "#8fa1b2"
-	bg[ACTIVE]   = "#090E13"	# slider trough background
+	bg[ACTIVE]   = "#0a0a0a"	# slider trough background
 
 	xthickness = 2
 	ythickness = 2

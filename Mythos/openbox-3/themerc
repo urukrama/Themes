@@ -1,4 +1,4 @@
-# Mythos, created by urukrama (09-2008)
+# Mythos, created by urukrama (09-2008, updated 01-2015)
 
 # Window geometry
 padding.width: 2
@@ -19,8 +19,8 @@ menu.overlap.x: -4
 menu.overlap.y: 0
 
 # Border colors
-window.active.border.color: #08090a
-window.inactive.border.color: #08090a
+window.active.border.color: #18191A
+window.inactive.border.color: #18191A
 
 window.active.title.separator.color:  #08090a
 window.inactive.title.separator.color: #08090a
